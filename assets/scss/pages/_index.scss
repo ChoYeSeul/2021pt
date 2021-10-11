@@ -1,0 +1,68 @@
+$vw-viewport: 1920;
+@function get-vw($font){
+  $vw-context: $vw-viewport * 0.01 * 1px;
+  @return $font / $vw-context * 1vw;
+  @return $font;
+}
+
+#menuicon + label{
+    width: get-vw(30px);
+    height: get-vw(20px);
+    p{
+        height: get-vw(2px);
+        border-radius: get-vw(30px);
+    }
+}
+
+/* intro_text */
+#text{
+    font-size: get-vw(60px);
+    height: get-vw(80px);
+    margin: auto 0;
+}
+
+/* sidebar */
+#sidebar{
+    height: 100vh;
+    #footerColor{
+        bottom: 6vw;
+        left: 10vw;
+        width: 100%;
+        > h1{
+            padding-bottom: 0.8vw;
+        }
+    }
+}
+.sidebar-circle{
+    position: absolute;
+    bottom: get-vw(40px);
+    &-container{
+        position: relative;
+        .MenuCircle{
+            position: absolute;
+            right: 0;
+            width: get-vw(150px);
+            height: get-vw(150px);
+            margin: 0;
+            left: 39vw;
+            bottom: -16vw;
+        }
+        #_menu0{
+            width: get-vw(180px);
+            left: 40vw;
+            top: 10vw;
+        }
+    }
+}
+/* footer */
+footer{
+    left: 10vw;
+    width: 100%;
+    bottom: 6vw;
+    .footerColor{
+        font-size: 0.7vw;
+        > h1{
+            padding-bottom: 0.8vw;
+        }
+    }
+}

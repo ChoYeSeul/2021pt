@@ -21,7 +21,7 @@ html,body{
     /* transform: translate(-50%, -50%); */
     /* text-align: center; */
     /* margin: auto; */
-    width: 23rem;
+    width: 25vw;
     /* transform-origin: 50% 50%; */
     /* opacity: 0; */
 
@@ -293,7 +293,7 @@ a:hover{
 .footerColor{
     /* padding: 40% 0; */
     display: inline-block;
-    font-size: 14px;
+    font-size: 0.7vw;
     color: rgb(133, 133, 133);
     position: absolute;
     animation: startOpacity 1s linear;
@@ -301,13 +301,6 @@ a:hover{
     animation-delay: 3.3s;
     opacity: 0;
     
-}
-#footerColor{
-    /* padding-top: 30%; */
-    position: absolute;
-    /* bottom: -120%; */
-    top: 175%;
-    opacity: 0;
 }
 .IndexNumber{
     font-size: 10rem;
@@ -355,8 +348,8 @@ a:hover{
 #menuicon{display: none;}
 #menuicon + label {
     display: block;
-    width: 30px;
-    height: 20px;
+    width: 2vw;
+    height: 1.3vw;
     position: relative;
     cursor:pointer;
 }
@@ -404,12 +397,11 @@ a:hover{
 footer{
     /* padding: 830px 0px 0px 6%; */
     position: absolute;
-    bottom: 15%;
-    left: 7%;
-    width: 480px;
+    bottom: 6vw;
+    left: 10vw;
+    width: 100%;
     display: inline-block;
     /* bottom: 3%; */ 
-    font-size: 14px;
     /* z-index: 9999999; */
 }
 .footerColor{
@@ -420,7 +412,7 @@ footer{
 }
 
 .footerColor > h1{
-    padding-bottom: 3%;
+    padding-bottom: 0.8vw;
     font-weight: bold;
 }
 
@@ -586,9 +578,9 @@ footer{
   #text{
     position: relative;
     display: inline-block;
-    font-size: 4rem;
     font-weight: lighter;
     left: 50%;
+    top: 50%;
     transform: translate(-50%, 700%);
     /* transform: translate(-50%, -50%); */
 }

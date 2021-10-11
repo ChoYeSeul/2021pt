@@ -1,0 +1,66 @@
+#menuicon + label { width: 1.5625vw; height: 1.04167vw; }
+
+#menuicon + label p { height: 0.10417vw; border-radius: 1.5625vw; }
+
+/* intro_text */
+#text { font-size: 3.125vw; height: 4.16667vw; margin: auto 0; }
+
+/* sidebar */
+#sidebar { height: 100vh; }
+
+#sidebar #footerColor { bottom: 6vw; left: 10vw; width: 100%; }
+
+#sidebar #footerColor > h1 { padding-bottom: 0.8vw; }
+
+.sidebar-circle { position: absolute; bottom: 2.08333vw; }
+
+.sidebar-circle-container { position: relative; }
+
+.sidebar-circle-container .MenuCircle { position: absolute; right: 0; width: 7.8125vw; height: 7.8125vw; margin: 0; left: 39vw; bottom: -16vw; }
+
+.sidebar-circle-container #_menu0 { width: 9.375vw; left: 40vw; top: 10vw; }
+
+/* footer */
+footer { left: 10vw; width: 100%; bottom: 6vw; }
+
+footer .footerColor { font-size: 0.7vw; }
+
+footer .footerColor > h1 { padding-bottom: 0.8vw; }
+
+/* works.scss */
+.backcircle { text-align: center; display: block; height: 29.16667vw; position: absolute; top: 0; bottom: 0; right: 0; left: 0; margin: auto; }
+
+.backcircle img { width: 29.16667vw; }
+
+#sidebar { left: 100vw; }
+
+.listColor > ul { bottom: 6vw; right: 10vw; }
+
+.listColor > ul li { padding-bottom: 0.5vw; }
+
+.individual { color: #95a38a; }
+
+.work { color: #222; }
+
+.download { width: 6.77083vw; height: 6.77083vw; position: absolute; right: 9.375vw; font-size: 0.72917vw; }
+
+.download p { text-align: center; position: absolute; top: 0; bottom: 0; left: 0; right: 0; margin: auto; }
+
+.download ._imageCircle2 { width: 6.77083vw; left: 0; top: 0; }
+
+.download2 { width: 6.77083vw; height: 6.77083vw; position: absolute; right: 9.375vw; font-size: 0.72917vw; }
+
+.download2 p { text-align: center; position: absolute; top: 0; bottom: 0; left: 0; right: 0; margin: auto; }
+
+.download2 ._imageCircle2 { width: 6.77083vw; left: 0; top: 0; }
+
+/* info */
+._info { position: absolute; bottom: 6.25vw; right: 8.33333vw; }
+
+.about-download { bottom: 6.25vw; left: 14.58333vw; }
+
+#about { line-height: 1.5; }
+
+.debbyupper-imgs { -webkit-transform: rotate(-20deg); transform: rotate(-20deg); top: 15.625vw; left: 68.75vw; }
+
+.debbyupper-imgs #ContentsImg { width: 12.5vw; }

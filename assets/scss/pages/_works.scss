@@ -1,0 +1,98 @@
+/* works.scss */
+.backcircle{
+    text-align: center;
+    display: block;
+    height: get-vw(560px);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    img{
+        width: get-vw(560px);
+    }
+}
+#sidebar{
+    left: get-vw(1920px);
+}
+.listColor{
+    > ul{
+        bottom: 6vw;
+        right: 10vw;
+        li{
+           padding-bottom: 0.5vw;
+        }
+    }
+}
+.individual{
+    color: #95a38a;
+}
+.work{
+    color: #222;
+}
+
+.download{
+    width: get-vw(130px);
+    height: get-vw(130px);
+    position: absolute;
+    right: get-vw(180px);
+    font-size: get-vw(14px);
+    p{
+        text-align: center;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+    ._imageCircle2{
+        width: get-vw(130px);
+        left: 0;
+        top: 0;
+        }
+}
+.download2{
+    width: get-vw(130px);
+    height: get-vw(130px);
+    position: absolute;
+    right: get-vw(180px);
+    font-size: get-vw(14px);
+    p{
+        text-align: center;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+    ._imageCircle2{
+    width: get-vw(130px);
+    left: 0;
+        top: 0;
+    }
+}
+
+/* info */
+._info{
+    position: absolute;
+    bottom: get-vw(120px);
+    right: get-vw(160px);
+}
+.about-download{
+    bottom: get-vw(120px);
+    left: get-vw(280px);
+}
+#about{
+    line-height: 1.5;
+}
+.debbyupper-imgs{
+    transform: rotate(-20deg);
+    top: get-vw(300px);
+    left: get-vw(1320px);
+    #ContentsImg{
+        width: get-vw(240px);
+    }
+}

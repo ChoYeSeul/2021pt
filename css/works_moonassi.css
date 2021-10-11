@@ -18,14 +18,7 @@ html,body{
 }
 
 .imageCircle{
-    position: absolute;
-    top: 26%;
-    left:37%;
-    /* transform: translate(-50%, -50%); */
-    /* text-align: center; */
-    /* margin: auto; */
-    width: 30rem;
-    /* transform-origin: 50% 50%; */
+
     animation: spinCircle 30s linear infinite;
     opacity: 0.1;
 }
