@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <link href="../css/reset.css" rel="stylesheet" />
+    <link href="../css/works_NightPicnic.css" rel="stylesheet" />
+    <link rel="SHORTCUT ICON" href="../img/favicon.ico"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;700&family=Noto+Serif:wght@400;700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+    <title>Night Picnic</title>
+</head>
+<body>
+    <div class="loader" id="loader"></div>
+    <div>
+        <div class="nav">
+            <div id="menu">
+                <input type="checkbox" id="menuicon">
+                <label for="menuicon">
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                </label>
+                <div id="sidebar">
+                    <div class="line"> </div>
+                    <div id="overlay">
+                        <nav id="OverlayMenu">
+                            <p class="Index">INDEX.</p>
+                            <ul class="flex_con">
+                                <li><a href="./index.html" id="indexPage"><p class="IndexNumber">01</p><p class="Sub">Main</p><p class="IndexUse">JavaScript, HTML, CSS</p></a></li>
+                                <li><a href="./works.html" id="workPage"><p class="IndexNumber2">02</p><p class="Sub">Works</p><p class="IndexUse">JavaScript, HTML, CSS, C#, Unity, Illustration</p></a></li>
+                                <li><a href="./about.html" id="AboutPage"><p class="IndexNumber">03</p><p class="Sub">About 乂</p></a></li>
+                                <li><a href="./contact.html" id="ContactPage"><p class="IndexNumber2">04</p><p class="Sub">Contact 乂</p></a></li>
+                            </ul>
+                            <div class="footerColor2" id="footerColor2">
+                                <h1>Designed by Yeseul.</h1>
+                                <p>Copyrightⓒ2020 Cho Yeseul (@132.o3) Co., Ltd. All rights reserved.</p>
+                            </div>
+                            <div class="MenuCircle"></div>
+                            <img class="imageCircle" id="_menu0" src="../img/imageCircle.png" />
+                        </nav>
+                    </div>
+                </div>
+                <div class="loader" id="loader"></div>
+            </div>
+            <a href="../html/Stalker.html"><div class="_line0"></div></a>
+            <a href="../html/works.html"><div class="_line"></div></a>
+            <a href="../html/Momentrip.html"><div class="_line2"></div></a>
+    </div>
+    <div class="backcircle">
+        <img class="imageCircle" src="../img/imageCircle.png" />
+    </div>
+    <div class="ContentsMenu">
+        <ul class="_ContentMenu">
+            <li class="_1" id="dynamic"></li>
+            <li class="_2"><strong>Use</strong> - CSS, HTML, JAVASCRIPT, Illustration</li>
+            <li class="_3">
+                좋아하는 노래인 'Night Picnic - Nana'의 프로모션 애니메이션 웹사이트를 기획, 디자인, 제작하였습니다.<br/>
+                노래를 효과적이고 재미있게 홍보할 수 있는 방법에 대해 고민을 하고 기획을 하였습니다.
+                그 결과 노래에 맞춰 애니메이션이 재생되면 재미있겠다는 생각을 하게 되었고, 
+                JavaScript의 setTimeOut 기능을 사용하여 일정한 시간이 되면 동작이 되거나 멈추도록 계산하여 
+                실제 그 웹페이지 구현에 도전하게 되었습니다. 시간을 계산하여 정밀하게 코딩 작업을 해야 했기에 
+                많은 고민과 파생된 연습 웹페이지들을 만들게 된 비하인드 스토리가 있습니다. 짧은 시간 안에 구현을 해내게 되어서 굉장히 기뻤습니다! (완성까지 약 3일 소요)
+            </li>
+        </ul>
+    </div>
+    <div class="wrap-images">
+        <img id="ContentsImg" class="imageContents1 image zoom" src="../img/Contents0.jpg" />
+        <!-- <img id="ContentsImg" class="imageContents2" src="../img/Contents1_1.jpg" />
+        <img id="ContentsImg" class="imageContents3" src="../img/Contents1_2.jpg" /> -->
+    </div>
+    <div class="download">
+        <img class="_imageCircle2" src="../img/imageCircle 2.png" />
+        <a href="https://choyeseul.github.io/NightPicnic/NightPicnic/html/index.html" target="_blank" ><p class="_download">EXPLORE</p></a>
+    </div>
+    <script src="../vendor/jquery/jquery.min.js" type="text/javascript"></script>
+    <script src="../js/script.js"  type="text/javascript"></script>
+    <script src="../js/zoomIn.js"  type="text/javascript"></script>
+    <script src="../js/worksClick.js"  type="text/javascript"></script>
+    <script src="../js/script_NightPicnic.js"  type="text/javascript"></script>
+    <script src="../js/cursorImageHover.js"  type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.0/gsap.min.js"></script>
+</body>
+<footer>
+    <div class="footerColor">
+        <h1>Designed by Yeseul.</h1>
+        <p>Copyrightⓒ2020 Cho Yeseul (@132.o3) Co., Ltd. All rights reserved.</p>
+    </div>
+</footer>
+</html>
