@@ -64,3 +64,6 @@ footer .footerColor > h1 { padding-bottom: 0.8vw; }
 .debbyupper-imgs { -webkit-transform: rotate(-20deg); transform: rotate(-20deg); top: 15.625vw; left: 68.75vw; }
 
 .debbyupper-imgs #ContentsImg { width: 12.5vw; }
+
+/* contact */
+#section1 p { z-index: 999; }
